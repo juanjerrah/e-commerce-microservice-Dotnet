@@ -1,4 +1,5 @@
-﻿using Catalog.Api.Entities;
+﻿using Catalog.Api.Data.Seed;
+using Catalog.Api.Entities;
 using MongoDB.Driver;
 
 namespace Catalog.Api.Data
