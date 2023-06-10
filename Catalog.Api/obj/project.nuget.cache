@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RMxcJg0aaWzQuw5b9czBzHWozNhTX3Bifo/RtZ0SDkk3wWatjIESYj83Lk7JJ+YwB6xBDlykrZxHrXQ4V59Ouw==",
+  "dgSpecHash": "qO0rMc3g/5m/VX2CxT0h1RiGbKj3PbwmlyxtY2d0sRY62RZMsAADil2E125KR2uA6lnlmQIFLjXRKHgkC3+2/A==",
   "success": true,
   "projectFilePath": "C:\\projetos\\e-commerce-microservices\\Catalog.Api\\Catalog.Api.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\juanj\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\juanj\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\juanj\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\juanj\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\juanj\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\juanj\\.nuget\\packages\\mongodb.bson\\2.19.2\\mongodb.bson.2.19.2.nupkg.sha512",
     "C:\\Users\\juanj\\.nuget\\packages\\mongodb.driver\\2.19.2\\mongodb.driver.2.19.2.nupkg.sha512",
