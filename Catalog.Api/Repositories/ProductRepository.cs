@@ -1,5 +1,6 @@
 ﻿using Catalog.Api.Data;
 using Catalog.Api.Entities;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace Catalog.Api.Repositories
@@ -12,8 +13,10 @@ namespace Catalog.Api.Repositories
         //Constructor
         public ProductRepository(ICatalogContext context) => _context = context;
 
-        public async Task CreateProductAsync(Product product) => 
+        public async Task CreateProductAsync(Product product)
+        {
             await _context.Products.InsertOneAsync(product);
+        }
 
         public async Task<bool> DeleteProductAsync(string id)
         {
@@ -39,9 +42,9 @@ namespace Catalog.Api.Repositories
 
         public async Task<IEnumerable<Product>> GetProductsByNameAsync(string name)
         {
-            FilterDefinition<Product> filter = Builders<Product>.Filter.Eq(p => p.Name, name);
+            //FilterDefinition<Product> filter = Builders<Product>.Filter.Eq(p => p.Name.ToUpper(), name.ToUpper());
 
-            return await _context.Products.Find(filter).ToListAsync();
+            return await _context.Products.Find(x => x.Name.ToUpper().Contains(name.ToUpper())).ToListAsync();
         }
 
         public async Task<bool> UpdateProductAsync(Product product)
