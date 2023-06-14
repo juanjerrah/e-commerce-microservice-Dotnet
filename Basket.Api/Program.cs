@@ -10,7 +10,7 @@ builder.Services.AddSwaggerGen();
 //Redis config
 builder.Services.AddStackExchangeRedisCache(options =>
 {
-    options.Configuration = "ConnectionStrings:RedisConnection";
+    options.Configuration = builder.Configuration.GetValue<string>("ConnectionStrings:RedisConnection");
 });
 
 var app = builder.Build();
