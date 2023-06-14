@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\e-commerce-microservices\\Basket.Api\\Basket.Api.csproj": {}
+    "C:\\projetos\\e-commerce-microservices\\Basket.Api\\Basket.Api.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\e-commerce-microservices\\Basket.Api\\Basket.Api.csproj": {
+    "C:\\projetos\\e-commerce-microservices\\Basket.Api\\Basket.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\e-commerce-microservices\\Basket.Api\\Basket.Api.csproj",
+        "projectUniqueName": "C:\\projetos\\e-commerce-microservices\\Basket.Api\\Basket.Api.csproj",
         "projectName": "Basket.Api",
-        "projectPath": "C:\\Projetos\\e-commerce-microservices\\Basket.Api\\Basket.Api.csproj",
+        "projectPath": "C:\\projetos\\e-commerce-microservices\\Basket.Api\\Basket.Api.csproj",
         "packagesPath": "C:\\Users\\juanj\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\e-commerce-microservices\\Basket.Api\\obj\\",
+        "outputPath": "C:\\projetos\\e-commerce-microservices\\Basket.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juanj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
